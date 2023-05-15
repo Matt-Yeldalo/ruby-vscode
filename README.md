@@ -6,7 +6,7 @@
 
 ## VScode basics
 
-![Activity Bar](activity-bar.PNG)
+![Activity Bar](images/activity-bar.PNG)
 
 1. **Explorer** - Displays all files and folders in the current working directory.
 2. **Search** - Used for basic searching actions. Mainly unused due to the VIM extension.
@@ -16,11 +16,11 @@
 
 ## Notable Settings
 
-![Settings Location](setting-loc.PNG)
+![Settings Location](images/setting-loc.PNG)
 
 Cog -> Settings
 
-![Terminal Settings](terminal-settings.PNG)
+![Terminal Settings](images/terminal-settings.PNG)
 
 - You have the ability to right click a file in the explorer and open in terminal. This setting determines if you want to use an external terminal or the internal one within VScode. (both of these locations can be configured)
 - Integrated terminal settings can be found just below. 
@@ -55,7 +55,6 @@ The following are extensions I recommend:
 - **Rails** - RoR support.
 - **HTML CSS Support** - Intellisense with auto completion.
 - **Prettier** - Formatter.
-- **Highlight Matching Tag** - Highlights the matching tag for various things.
 - **React Native Tools** - Useful dev environment tools.
 - **ES7+ React/Redux/React-Native snippets** - Contains useful snippets to quickly generate boiler code. e.g. "rafc" + tab -> react arrow function component.
 - **Better Comments** - Helps you create more human-friendly comments.
