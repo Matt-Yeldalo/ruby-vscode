@@ -67,7 +67,7 @@
 	},
 	// Enables HTML emmet within .erb files. e.g. div + tab, div.className + tab
 	"emmet.includeLanguages": {
-		"html.erb": "html"
+		"erb": "html"
 	},
 	// JS/TS
 	"javascript.format.semicolons": "insert",
