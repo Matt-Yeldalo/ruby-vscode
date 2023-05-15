@@ -42,10 +42,20 @@ The following are extensions I recommend:
 ### Functionality
 
 - **Vim** - Adds Vim emulation.
-- **Ruby** - Ruby language support and debugging.
+- **Ruby extension pack** - Contains 8 ruby extensions:
+  - Ruby
+  - Ruby Solargraph
+  - ruby-rubocop
+  - Ruby Language Colorization
+  - Ruby Haml
+  - Simple Ruby ERB
+  - ruby-linter
+  - ruby-symbols
 - **VSCode Ruby** - Syntax highlighting, snippet, and language config support.
 - **Rails** - RoR support.
 - **HTML CSS Support** - Intellisense with auto completion.
+- **Prettier** - Formatter.
+- **Highlight Matching Tag** - Highlights the matching tag for various things.
 - **React Native Tools** - Useful dev environment tools.
 - **ES7+ React/Redux/React-Native snippets** - Contains useful snippets to quickly generate boiler code. e.g. "rafc" + tab -> react arrow function component.
 - **Better Comments** - Helps you create more human-friendly comments.
