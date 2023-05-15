@@ -1,0 +1,120 @@
+{
+	// Editor
+	"editor.fontSize": 18,
+	"editor.lineHeight": 28,
+	"editor.detectIndentation": true,
+	"editor.cursorBlinking": "phase",
+	"editor.cursorWidth": 4,
+	"editor.renderWhitespace": "all",
+	"editor.hover.delay": 200,
+	"editor.smoothScrolling": true,
+	"editor.fontLigatures": true,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.minimap.enabled": false,
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+	"editor.suggestSelection": "first",
+	// Change main font here
+	"editor.fontFamily": "Azeret Mono Medium",
+	"editor.codeLensFontFamily": "Azeret Mono Medium",
+	"debug.console.fontFamily": "Azeret Mono Medium",
+	"editor.tabSize": 2,
+	// Workbench
+	"workbench.iconTheme": "material-icon-theme",
+	// Change main theme here
+	"workbench.colorTheme": "Electron vue darker",
+	// Disables pop up asking if you trust the workspace
+	"security.workspace.trust.untrustedFiles": "open",
+	"workbench.editor.untitled.hint": "hidden",
+	// Left is default
+	"workbench.sideBar.location": "right",
+	// Set transparency of glassit extension
+	"glassit.alpha": 235,
+	// Terminal
+	"terminal.integrated.fontFamily": "JetBrains Mono",
+	"terminal.integrated.fontSize": 16,
+	"terminal.integrated.fontWeight": "300",
+	"terminal.integrated.fontWeightBold": "600",
+	"terminal.integrated.defaultProfile.windows": "Git Bash",
+	"terminal.integrated.smoothScrolling": true,
+	"terminal.integrated.profiles.windows": {
+		"Git Bash": {
+			"source": "Git Bash"
+		}
+	},
+	// Material Icon Theme - This is the folder icons theme
+	"material-icon-theme.folders.color": "#37c886",
+	"material-icon-theme.folders.theme": "specific",
+	"material-icon-theme.hidesExplorerArrows": true,
+	"explorer.decorations.badges": false,
+	"window.titleBarStyle": "custom",
+	// RUBY
+	"ruby.useBundler": true, //run non-lint commands with bundle exec
+	"ruby.useLanguageServer": true, // use the internal language server (see below)
+	"ruby.lint": {
+		"rubocop": {
+			"useBundler": true // enable rubocop via bundler
+		},
+		"reek": {
+			"useBundler": true // enable reek via bundler
+		}
+	},
+	"ruby.format": "rubocop",
+	"[ruby]": {
+		"editor.defaultFormatter": "misogi.ruby-rubocop"
+	},
+	// Enables HTML emmet within .erb files. e.g. div + tab, div.className + tab
+	"emmet.includeLanguages": {
+		"html.erb": "html"
+	},
+	// JS/TS
+	"javascript.format.semicolons": "insert",
+	"javascript.preferences.quoteStyle": "single",
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"prettier.jsxSingleQuote": true,
+	"js/ts.implicitProjectConfig.checkJs": true,
+	"[typescript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	// JSON
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	// HTML & CSS
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"css.format.spaceAroundSelectorSeparator": true,
+	"scss.format.spaceAroundSelectorSeparator": true,
+	"[scss]": {
+		"editor.defaultFormatter": "Wscats.eno"
+	},
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "compressed",
+			"extensionName": ".css",
+			"savePath": null
+		}
+	],
+	// C++
+	"C_Cpp.autocompleteAddParentheses": true,
+	// Prettier Formatter General Settings
+	"prettier.quoteProps": "preserve",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.htmlWhitespaceSensitivity": "ignore",
+	"files.watcherExclude": {
+		"**/.bloop": true,
+		"**/.metals": true,
+		"**/.ammonite": true
+	},
+	// Used for excluded files/folders from the explorer - less clutter
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	}
+}
